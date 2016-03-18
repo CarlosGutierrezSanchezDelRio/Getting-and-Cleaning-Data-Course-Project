@@ -26,8 +26,9 @@ The script makes use of the tidyr and dplyr (please install them with install.pa
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-Variable name cleanup
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+## Variable name cleanup
 
 As part of the tidying process the variable names are cleaned up using the following transformations using the guidelines described in the lesson (lower case, no underscores, descriptive names...):
 

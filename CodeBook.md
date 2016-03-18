@@ -28,6 +28,10 @@ The script makes use of the tidyr and dplyr (please install them with install.pa
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+## Units
+
+All units normalized and bounded within [-1,1]
+
 ## Variable name cleanup
 
 As part of the tidying process the variable names are cleaned up using the following transformations using the guidelines described in the lesson (lower case, no underscores, descriptive names...):
